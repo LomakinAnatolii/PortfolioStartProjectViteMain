@@ -1,6 +1,7 @@
 import React from 'react';
 import {Developer} from "../sections/developer/Developer.tsx";
 import {Skills} from "../skills/Skills.tsx";
+import {Works} from "../works/Works.tsx";
 import styled from "styled-components";
 
 export const Main = () => {
@@ -8,6 +9,7 @@ export const Main = () => {
         <StyledMain>
             <Developer/>
             <Skills/>
+            <Works/>
         </StyledMain>
     );
 };
