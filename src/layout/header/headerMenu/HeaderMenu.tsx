@@ -67,6 +67,7 @@ const MenuItem = styled.li`
         height: 3px;
         display: inline-block;
         background-color: ${theme.colors.accent};
+        cursor: pointer;
         transform: scale(0);
     }
     &:hover {

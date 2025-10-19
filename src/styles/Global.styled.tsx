@@ -15,7 +15,8 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         font-size: 14px;
         font-family: Poppins, sans-serif;
-        color: ${theme.colors.font}
+        color: ${theme.colors.font};
+        line-height: 1.2;
     }
 
     a {
