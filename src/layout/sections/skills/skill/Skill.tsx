@@ -1,5 +1,5 @@
 import React from 'react';
-import {Icon} from "../../../components/icons/Icon.tsx";
+import {Icon} from "../../../../components/icons/Icon.tsx";
 import styled from "styled-components";
 
 type SkillPropsType = {

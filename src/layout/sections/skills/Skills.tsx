@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import {SectionTitle} from "../../components/SectionTitle.tsx";
+import {SectionTitle} from "../../../components/SectionTitle.tsx";
 import {Skill} from "./skill/Skill.tsx";
 
 

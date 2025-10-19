@@ -12,7 +12,7 @@ export const Work = (props: WorkPropsType) => {
         <StyledWork>
             <WorkImg src={props.src} alt=""/>
             <WorkTile>{props.title}</WorkTile>
-            <WorkText>{props.text}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</WorkText>
+            <WorkText>{props.text}</WorkText>
             <WorkLink href="">Demo</WorkLink>
             <WorkLink href="">Code</WorkLink>
             <WorkLink href="">View project</WorkLink>

@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from "styled-components";
-import {SectionTitle} from "../../components/SectionTitle.tsx";
-import {Tabulator} from "../../components/tabulator/Tabulator.tsx";
+import {SectionTitle} from "../../../components/SectionTitle.tsx";
+import {Tabulator} from "../../../components/tabulator/Tabulator.tsx";
 import {Work} from "./work/Work.tsx";
-import socialImg from "../../assets/images/proj-2.webp";
-import timerlImg from "../../assets/images/proj-1.webp";
+import socialImg from "../../../assets/images/proj-2.webp";
+import timerlImg from "../../../assets/images/proj-1.webp";
 
 const worksItems = ["All", "Landing page", "React", "Spa"]
 
