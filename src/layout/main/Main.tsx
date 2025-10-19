@@ -21,6 +21,5 @@ export const Main = () => {
 };
 
 const StyledMain = styled.main`
-    height: 100vh;
     background-color: bisque;
 `
