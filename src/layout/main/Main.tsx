@@ -2,8 +2,9 @@ import React from 'react';
 import {Developer} from "../sections/developer/Developer.tsx";
 import {Skills} from "../sections/skills/Skills.tsx";
 import {Works} from "../sections/works/Works.tsx";
-import styled from "styled-components";
 import {Testimony} from "../sections/testimony/Testimony.tsx";
+import {Contact} from "../sections/contacts/Contacts.tsx";
+import styled from "styled-components";
 
 export const Main = () => {
     return (
@@ -12,6 +13,7 @@ export const Main = () => {
             <Skills/>
             <Works/>
             <Testimony/>
+            <Contact/>
         </StyledMain>
     );
 };
