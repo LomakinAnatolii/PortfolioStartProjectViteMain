@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from "styled-components";
 import {SectionTitle} from "../../components/SectionTitle.tsx";
 import {Icon} from "../../components/icons/Icon.tsx";

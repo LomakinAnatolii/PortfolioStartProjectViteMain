@@ -1,4 +1,3 @@
-import React from 'react';
 import photo from '../../../assets/images/photo.webp'
 import styled from "styled-components";
 

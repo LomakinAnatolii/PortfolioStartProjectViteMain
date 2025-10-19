@@ -1,4 +1,3 @@
-import React from 'react';
 import {Developer} from "../sections/developer/Developer.tsx";
 import {Skills} from "../sections/skills/Skills.tsx";
 import {Works} from "../sections/works/Works.tsx";
