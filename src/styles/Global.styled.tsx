@@ -16,20 +16,24 @@ export const GlobalStyles = createGlobalStyle`
         font-size: 14px;
         font-family: Poppins, sans-serif;
         color: ${theme.colors.font};
-        line-height: 1.2;
+        line-height: 1.4;
     }
 
     a {
         display: inline-block;
         text-decoration: none;
+        color: ${theme.colors.font};
         outline: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     button {
         display: block;
+        font-size: 14px;
+        color: ${theme.colors.font};
         background-color: transparent;
         border: none;
+        cursor: pointer;
         outline: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
@@ -78,5 +82,11 @@ export const GlobalStyles = createGlobalStyle`
 
     section:nth-of-type(even) {
         background-color: ${theme.colors.secondaryBg}
+    }
+    
+    h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
     }
 `

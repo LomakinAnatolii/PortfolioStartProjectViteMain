@@ -37,9 +37,7 @@ const StyledSkill = styled.li`
 
 const SkillTile = styled.h3`
     margin: 70px 0 15px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    text-transform: uppercase;
 `
 const SkillText = styled.p`
     text-align: center;
