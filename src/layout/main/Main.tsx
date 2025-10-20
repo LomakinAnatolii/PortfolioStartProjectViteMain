@@ -20,5 +20,5 @@ export const Main = () => {
 };
 
 const StyledMain = styled.main`
-    background-color: bisque;
+
 `

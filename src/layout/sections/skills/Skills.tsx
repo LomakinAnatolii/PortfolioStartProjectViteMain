@@ -6,7 +6,7 @@ import {Skill} from "./skill/Skill.tsx";
 export const Skills = () => {
     return (
         <StyledSkills>
-            <SectionTitle text={"My skills"}/>
+            <SectionTitle text={"My Skills"}/>
             <SkillsList>
                 <Skill iconId={"codeSvg"}
                        tile={"html5"}
@@ -32,8 +32,12 @@ export const Skills = () => {
 };
 
 const StyledSkills = styled.section`
-    text-align: center;
+    padding: 100px 30px;
 `
 
 const SkillsList = styled.ul`
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1140px;
 `
