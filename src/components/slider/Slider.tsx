@@ -23,5 +23,10 @@ const Response = styled.p`
 `
 
 const Author = styled.h4`
-
+    margin: 22px 0 42px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 `

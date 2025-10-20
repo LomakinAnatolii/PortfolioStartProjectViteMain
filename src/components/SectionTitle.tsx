@@ -11,7 +11,7 @@ export const SectionTitle = (props: SectionTitlePropsType) => {
     );
 };
 
-const Title = styled.h2`
+export const Title = styled.h2`
     position: relative;
     margin-bottom: 90px;
     text-align: center;

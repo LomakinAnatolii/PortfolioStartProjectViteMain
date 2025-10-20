@@ -3,7 +3,7 @@ import {Skills} from "../sections/skills/Skills.tsx";
 import {Works} from "../sections/works/Works.tsx";
 import {Testimony} from "../sections/testimony/Testimony.tsx";
 import {Contact} from "../sections/contacts/Contacts.tsx";
-import {Slogan} from "../sections/Slogan/Slogan.tsx";
+import {Slogan} from "../sections/slogan/Slogan.tsx";
 import styled from "styled-components";
 
 export const Main = () => {
